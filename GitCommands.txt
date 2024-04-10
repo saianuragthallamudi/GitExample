@@ -9,3 +9,8 @@ git adf . --> for adding all the files.
 
 After staging the changes, commit all those changes
 git commit -m "commit message"
+
+After commit push the git local repo to remote repo
+git push origin main
+
+//Here origin means the remote repo that we are meaning to push to and main refers to branch, not only origin it could be any other name but by default when we create a repo in git hub, it is named origin
