@@ -1,3 +1,11 @@
 Somemore Git Commands
 
 git status -- shows the status of files from our local repo to remote repo
+
+Configuring git in local machine :
+
+git config --global user.name "username" -- sets the username
+git config --global user.email "user email" -- sets the email
+
+The above commands are used to configure the git in our system, and --global means that if we run
+git commands from anywhere in our system, then those changes will be reflected in the above set user details.
