@@ -14,3 +14,6 @@ After commit push the git local repo to remote repo
 git push origin main
 
 //Here origin means the remote repo that we are meaning to push to and main refers to branch, not only origin it could be any other name but by default when we create a repo in git hub, it is named origin
+
+Now if we want to pull some remote files in our local repo, we use
+git pull origin main.
