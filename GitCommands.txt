@@ -1,0 +1,11 @@
+Git Workflow :
+
+Clone the project from Git Remote repo --> Git local repo.
+git clone <link>
+
+New files are created/old files updated, add these files in git staging area.
+git add <filename> -- for single file
+git adf . --> for adding all the files.
+
+After staging the changes, commit all those changes
+git commit -m "commit message"
